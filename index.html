@@ -1,1040 +1,525 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
 
-    <title>Spaze Tech Solutions</title>
+<head>
+    <meta charset="utf-8">
+    <title>Spazetech Solutions</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+   <meta name="title" content="Spaze Tech Web Development Bahadurgarh">
+<meta name="description" content="Spazetech, a respected web development company in Bahadurgarh, creates quality websites and custom apps for businesses of all kinds, from start-ups to enterprises, using cutting-edge technology, digital intelligence, and experience. Let's talk about your project!">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="revisit-after" content="7 days">
+<meta name="author" content="Vibhor Goyal">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link href="img/Logo1.png" rel="icon">
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css" />
-    <link rel="stylesheet" href="assets/css/animated.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
-    <!--
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
 
-TemplateMo 565 Onix Digital
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-https://templatemo.com/tm-565-onix-digital
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
--->
-  </head>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <body>
-    <!-- ***** Preloader Start ***** -->
-    <div id="js-preloader" class="js-preloader">
-      <div class="preloader-inner">
-        <span class="dot"></span>
-        <div class="dots">
-          <span></span>
-          <span></span>
-          <span></span>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
         </div>
-      </div>
-    </div>
-    <!-- ***** Preloader End ***** -->
+        <!-- Spinner End -->
 
-    <!-- ***** Header Area Start ***** -->
-    <header
-      class="header-area header-sticky wow slideInDown"
-      data-wow-duration="0.75s"
-      data-wow-delay="0s"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <nav class="main-nav">
-              <!-- ***** Logo Start ***** -->
-              <a href="index.html" class="logo">
-                <img src="assets/images/Logo1.png" style="width: 140px" />
-              </a>
-              <!-- ***** Logo End ***** -->
-              <!-- ***** Menu Start ***** -->
-              <ul class="nav">
-                <li class="scroll-to-section">
-                  <a href="#top" class="active">Home</a>
-                </li>
-                <li class="scroll-to-section">
-                  <a href="#services">Services</a>
-                </li>
-                <li class="scroll-to-section"><a href="#about">About</a></li>
-                <li class="scroll-to-section">
-                  <a href="#portfolio">Portfolio</a>
-                </li>
-                <li class="scroll-to-section"><a href="#video">Videos</a></li>
-                <li class="scroll-to-section">
-                  <a href="#contact">Contact Us</a>
-                </li>
-                <li class="scroll-to-section">
-                  <div class="main-red-button-hover">
-                    <a href="#contact">Contact Us Now</a>
-                  </div>
-                </li>
-              </ul>
-              <a class="menu-trigger">
-                <span>Menu</span>
-              </a>
-              <!-- ***** Menu End ***** -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <!-- <h1 class="m-0">Spazetech Solutions</h1> -->
+                    <img src="img/Logo1.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="project.html" class="nav-item nav-link">Project</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <!-- <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div> -->
+                        
+                    </div>
+                    <a href="" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
+                </div>
             </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
 
-    <div class="main-banner" id="top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="row">
-              <div class="col-lg-6 align-self-center">
-                <div class="owl-carousel owl-banner">
-                  <div class="item header-text">
-                    <h6>IT Services</h6>
-                    <!-- <h2>
-                      Build <em>your website</em> the best in <span>SEO</span>?
-                    </h2> -->
-                    <p>
-                      We design, build, and help you migrate to a scalable
-                      modern IT architecture.
-                    </p>
-                    <div class="down-buttons">
-                      <div class="main-blue-button-hover">
-                        <a href="#contact">Message Us Now</a>
-                      </div>
-                      <!-- <div class="call-button">
-                        <a href="#"><i class="fa fa-phone"></i> 010-020-0340</a>
-                      </div> -->
+            <div class="container-xxl bg-primary hero-header">
+                <div class="container px-lg-5">
+                    <div class="row g-5 align-items-end">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated slideInDown">A Digital Agency Of Inteligents & Creative People</h1>
+                            <p class="text-white pb-3 animated slideInDown">We Work With Major Clients In The Financial Services, Technology, Complete Web Development, And Mobile App Development.</p>
+                            <a href="" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Read More</a>
+                            <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid animated zoomIn" src="img/hero.png" alt="">
+                        </div>
                     </div>
-                  </div>
-                  <div class="item header-text">
-                    <h6>Business Analytics</h6>
-                    <!-- <h2>
-                      Get the <em>best ideas</em> for <span>your website</span>
-                    </h2> -->
-                    <p>
-                      We empower you to turn insights into execution and support
-                      your change management practices.
-                    </p>
-                    <div class="down-buttons">
-                      <div class="main-blue-button-hover">
-                        <a href="#services">Our Services</a>
-                      </div>
-                      <!-- <div class="call-button">
-                        <a href="#"><i class="fa fa-phone"></i> 090-080-0760</a>
-                      </div> -->
-                    </div>
-                  </div>
-                  <div class="item header-text">
-                    <h6>Video Tutorials</h6>
-                    <h2>
-                      Watch <em>our videos</em> for your <span>projects</span>
-                    </h2>
-                    <p>
-                      Please
-                      <a
-                        rel="nofollow"
-                        href="https://www.paypal.me/templatemo"
-                        target="_blank"
-                        >support us</a
-                      >
-                      a little via PayPal if this digital marketing HTML
-                      template is useful for you. Thank you.
-                    </p>
-                    <div class="down-buttons">
-                      <div class="main-blue-button-hover">
-                        <a href="#video">Watch Videos</a>
-                      </div>
-                      <!-- <div class="call-button">
-                        <a href="#"><i class="fa fa-phone"></i> 050-040-0320</a>
-                      </div> -->
-                    </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
+        <!-- Navbar & Hero End -->
 
-    <div id="services" class="our-services section">
-      <div class="services-right-dec">
-        <img src="assets/images/services-right-dec.png" alt="" />
-      </div>
-      <div class="container">
-        <div class="services-left-dec">
-          <img src="assets/images/services-left-dec.png" alt="" />
-        </div>
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3">
-            <div class="section-heading">
-              <h2>
-                We
-                <em>work with major clients in the financial services, </em>
-                technology, and other services. <span></span>
-              </h2>
-              <span>Our Services</span>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="owl-carousel owl-services">
-              <div class="item">
-                <h4>Business Analytics</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-01.png" alt="" />
-                </div>
-                <p>
-                  We provide you the tools you need to turn insights into action
-                  and support your change management strategies.
-                </p>
-              </div>
-              <div class="item">
-                <h4>Data Engineering</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-02.png" alt="" />
-                </div>
-                <p>
-                  We design, build, and assist you in migrating to a modern data
-                  architecture that is scalable.
-                </p>
-              </div>
-              <!-- <div class="item">
-                <h4>Digital Solutions</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-03.png" alt="" />
-                </div>
-                <p>
-                  You can speed up product development and reduce time to market
-                  by integrating our digital solutions with your processes.
-                </p>
-              </div> -->
-              <div class="item">
-                <h4>Business Intelligence</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-04.png" alt="" />
-                </div>
-                <p>
-                  SpazeTech Solutions, with its extensive experience across the
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item bg-light rounded text-center p-4">
+                            
+                            <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
+                            <h5 class="mb-3">Web Development</h5>
+                            <p class="m-0">We are a team of expert in website development. We design,
+                  build, and maintain websites for our clients from all over the
+                  world.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item bg-light rounded text-center p-4">
+                            <i class="fa fa-3x fa-search text-primary mb-4"></i>
+                            <h5 class="mb-3">Mobile App Development</h5>
+                            <p class="m-0">Our specialized team of mobile app developers deliver high
+                  quality code for customized apps and softwares.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded text-center p-4">
+                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+                            <h5 class="mb-3">Business Intelligence</h5>
+                            <p class="m-0"> SpazeTech Solutions, with its extensive experience across the
                   data and analytics lifecycles, drives businesses to address
-                  transformation challenges.
-                </p>
-              </div>
-              <!-- <div class="item">
-                <h4>Optimizing your websites for Speed</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-01.png" alt="" />
+                  transformation challenges.</p>
+                        </div>
+                    </div>
                 </div>
-                <p>Get to know more about the topic in details</p>
-              </div>
-              <div class="item">
-                <h4>See The Strategy In The Market</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-02.png" alt="" />
-                </div>
-                <p>Get to know more about the topic in details</p>
-              </div>
-              <div class="item">
-                <h4>Best Content Ideas for your pages</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-03.png" alt="" />
-                </div>
-                <p>Feel free to use this template for your business</p>
-              </div>
-              <div class="item">
-                <h4>Optimizing Speed for your web pages</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-04.png" alt="" />
-                </div>
-                <p>Get to know more about the topic in details</p>
-              </div>
-              <div class="item">
-                <h4>Accessibility for mobile viewing</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-01.png" alt="" />
-                </div>
-                <p>Get to know more about the topic in details</p>
-              </div>
-              <div class="item">
-                <h4>Content Ideas for your next project</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-02.png" alt="" />
-                </div>
-                <p>Feel free to use this template for your business</p>
-              </div>
-              <div class="item">
-                <h4>UI &amp; UX Design &amp; Development</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-03.png" alt="" />
-                </div>
-                <p>Get to know more about the topic in details</p>
-              </div>
-              <div class="item">
-                <h4>Discover the digital marketing trend</h4>
-                <div class="icon">
-                  <img src="assets/images/service-icon-04.png" alt="" />
-                </div>
-                <p>Get to know more about the topic in details</p>
-              </div> -->
             </div>
-          </div>
         </div>
-      </div>
-    </div>
+        <!-- Feature End -->
 
-    <div id="about" class="about-us section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 align-self-center">
-            <div class="left-image">
-              <img
-                src="assets/images/about-left-image.png"
-                alt="Two Girls working together"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="section-heading">
-              <h2>Spaze Tech Solutions</h2>
-              <p>
-                SpazeTech Solutions enables businesses to better serve their
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="section-title text-secondary">About Us<span></span></p>
+                        <h1 class="mb-5">Spaze Tech Solutions</h1>
+                        <p class="mb-4">SpazeTech Solutions enables businesses to better serve their
                 customers by assisting them in moving up the analytics maturity
                 curve by providing actionable insights that lead to data-driven
                 decisions. Digital Solutions, Big Data Capabilities, and
                 Analytics Tools are among our specialties. By leveraging the
                 power of data and analytics, we assist and inspire clients to
-                transform their businesses and excel in the digital world.
-              </p>
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="fact-item">
-                    <div class="count-area-content">
-                      <div class="icon">
-                        <img src="assets/images/service-icon-01.png" alt="" />
-                      </div>
-                      <!-- <div class="count-digit">320</div> -->
-                      <div class="count-title">Web Development Projects</div>
-                      <p>Lorem ipsum dolor sitti amet, consectetur.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="fact-item">
-                    <div class="count-area-content">
-                      <div class="icon">
-                        <img src="assets/images/service-icon-02.png" alt="" />
-                      </div>
-                      <!-- <div class="count-digit">640</div> -->
-                      <div class="count-title">Data Visualization Projects</div>
-
-                      <p>Lorem ipsum dolor sitti amet, consectetur.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="fact-item">
-                    <div class="count-area-content">
-                      <div class="icon">
-                        <img src="assets/images/service-icon-03.png" alt="" />
-                      </div>
-                      <!-- <div class="count-digit">120</div> -->
-                      <div class="count-title">
-                        Business Intelligence Projects
-                      </div>
-                      <p>Lorem ipsum dolor sitti amet, consectetur.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="portfolio" class="our-portfolio section">
-      <div class="portfolio-left-dec">
-        <img src="assets/images/portfolio-left-dec.png" alt="" />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3">
-            <div class="section-heading">
-              <h2>
-                Our Recent <em>Projects</em> <br /><span>for Clients</span>
-              </h2>
-              <span>Our Portfolio</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="owl-carousel owl-portfolio">
-              <div class="item">
-                <div class="thumb">
-                  <img
-                    src="assets/images/web_development.jpg"
-                    width="301"
-                    height="550"
-                    alt=""
-                  />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a
-                        rel="sponsored"
-                        href="https://templatemo.com/tm-564-plot-listing"
-                        target="_parent"
-                        ><h4>Web Development Projects</h4></a
-                      >
-                      <span>Website Creation</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="thumb">
-                  <img
-                    src="assets/images/pythonLogo.png"
-                    width="301"
-                    height="550"
-                    alt=""
-                  />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a href="#"><h4>Python Projects</h4></a>
-                      <span>Machine Learning</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="thumb">
-                  <img
-                    src="assets/images/Microsoft_Office-Logo.png"
-                    width="301"
-                    height="550"
-                    alt=""
-                  />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a
-                        rel="sponsored"
-                        href="https://templatemo.com/tm-562-space-dynamic"
-                        target="_parent"
-                        ><h4>Microsoft Excel Projects</h4></a
-                      >
-                      <span>Excel Automation</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="thumb">
-                  <img
-                    src="assets/images/power-bi.jpg"
-                    width="301"
-                    height="550"
-                    alt=""
-                  />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a href="#"><h4>Power BI Projects</h4></a>
-                      <span>BI Dashboards</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="thumb">
-                  <img src="assets/images/portfolio-01.jpg" alt="" />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a href="#"><h4>Fifth Project</h4></a>
-                      <span>Digital Assets</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="thumb">
-                  <img src="assets/images/portfolio-02.jpg" alt="" />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a href="#"><h4>Sixth Project</h4></a>
-                      <span>SEO &amp; Marketing</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="thumb">
-                  <img src="assets/images/portfolio-03.jpg" alt="" />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a href="#"><h4>7th Project</h4></a>
-                      <span>SEO &amp; Marketing</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="thumb">
-                  <img src="assets/images/portfolio-04.jpg" alt="" />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a href="#"><h4>8th Project</h4></a>
-                      <span>SEO &amp; Marketing</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="thumb">
-                  <img src="assets/images/portfolio-01.jpg" alt="" />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a href="#"><h4>9th Project</h4></a>
-                      <span>SEO &amp; Marketing</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="thumb">
-                  <img src="assets/images/portfolio-02.jpg" alt="" />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a href="#"><h4>Project Ten</h4></a>
-                      <span>SEO &amp; Marketing</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="thumb">
-                  <img src="assets/images/portfolio-03.jpg" alt="" />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a href="#"><h4>Project Eleven</h4></a>
-                      <span>SEO &amp; Marketing</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="thumb">
-                  <img src="assets/images/portfolio-04.jpg" alt="" />
-                  <div class="hover-effect">
-                    <div class="inner-content">
-                      <a href="#"><h4>12th Project</h4></a>
-                      <span>SEO &amp; Marketing</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- <div id="pricing" class="pricing-tables">
-      <div class="tables-left-dec">
-        <img src="assets/images/tables-left-dec.png" alt="" />
-      </div>
-      <div class="tables-right-dec">
-        <img src="assets/images/tables-right-dec.png" alt="" />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3">
-            <div class="section-heading">
-              <h2>
-                Select a suitable <em>plan</em> for your next
-                <span>projects</span>
-              </h2>
-              <span>Our Plans</span>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="item first-item">
-              <h4>Starter Plan</h4>
-              <em>$160/mo</em>
-              <span>$140</span>
-              <ul>
-                <li>10 Projects</li>
-                <li>100 GB space</li>
-                <li>20 SEO checkups</li>
-                <li>Basic Support</li>
-              </ul>
-              <div class="main-blue-button-hover">
-                <a href="#">Get Started</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="item second-item">
-              <h4>Standard Plan</h4>
-              <em>$240/mo</em>
-              <span>$200</span>
-              <ul>
-                <li>20 Projects</li>
-                <li>200 GB space</li>
-                <li>50 SEO checkups</li>
-                <li>Pro Support</li>
-              </ul>
-              <div class="main-blue-button-hover">
-                <a href="#">Get it Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="item third-item">
-              <h4>Advanced Plan</h4>
-              <em>$360/mo</em>
-              <span>$280</span>
-              <ul>
-                <li>30 Projects</li>
-                <li>300 GB space</li>
-                <li>100 SEO checkups</li>
-                <li>Best Support</li>
-              </ul>
-              <div class="main-blue-button-hover">
-                <a href="#">Buy Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- <div id="subscribe" class="subscribe">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="inner-content">
-              <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                  <h2>Know Your Website SEO Score by Email</h2>
-                  <form id="subscribe" action="" method="get">
-                    <input
-                      type="text"
-                      name="website"
-                      id="website"
-                      placeholder="Your Website URL"
-                      required=""
-                    />
-                    <input
-                      type="text"
-                      name="email"
-                      id="email"
-                      pattern="[^ @]*@[^ @]*"
-                      placeholder="Your Email"
-                      required=""
-                    />
-                    <button type="submit" id="form-submit" class="main-button">
-                      Subscribe
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <div id="video" class="our-videos section">
-      <div class="videos-left-dec">
-        <img src="assets/images/videos-left-dec.png" alt="" />
-      </div>
-      <div class="videos-right-dec">
-        <img src="assets/images/videos-right-dec.png" alt="" />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="naccs">
-              <div class="grid">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <ul class="nacc">
-                      <li class="active">
-                        <div>
-                          <div class="thumb">
-                            <iframe
-                              width="100%"
-                              height="auto"
-                              src="https://www.youtube.com/embed/JynGuQx4a1Y"
-                              title="YouTube video player"
-                              frameborder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                              allowfullscreen
-                            ></iframe>
-                            <div class="overlay-effect">
-                              <a href="#"><h4>Project One</h4></a>
-                              <span>SEO &amp; Marketing</span>
+                transform their businesses and excel in the digital world.</p>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Web Development</p>
+                                <p class="mb-2">85%</p>
                             </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div>
-                          <div class="thumb">
-                            <iframe
-                              width="100%"
-                              height="auto"
-                              src="https://www.youtube.com/embed/RdJBSFpcO4M"
-                              title="YouTube video player"
-                              frameborder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                              allowfullscreen
-                            ></iframe>
-                            <div class="overlay-effect">
-                              <a href="#"><h4>Second Project</h4></a>
-                              <span>Advertising &amp; Marketing</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                          </div>
                         </div>
-                      </li>
-                      <li>
-                        <div>
-                          <div class="thumb">
-                            <iframe
-                              width="100%"
-                              height="auto"
-                              src="https://www.youtube.com/embed/ZlfAjbQiL78"
-                              title="YouTube video player"
-                              frameborder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                              allowfullscreen
-                            ></iframe>
-                            <div class="overlay-effect">
-                              <a href="#"><h4>Project Three</h4></a>
-                              <span>Digital &amp; Marketing</span>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Business Intelligence</p>
+                                <p class="mb-2">90%</p>
                             </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div>
-                          <div class="thumb">
-                            <iframe
-                              width="100%"
-                              height="auto"
-                              src="https://www.youtube.com/embed/mx1WseE7-0Y"
-                              title="YouTube video player"
-                              frameborder="0"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                              allowfullscreen
-                            ></iframe>
-                            <div class="overlay-effect">
-                              <a href="#"><h4>Fourth Project</h4></a>
-                              <span>SEO &amp; Advertising</span>
+                            <div class="progress">
+                                <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                          </div>
                         </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="menu">
-                      <div class="active">
-                        <div class="thumb">
-                          <img src="assets/images/video-thumb-01.png" alt="" />
-                          <div class="inner-content">
-                            <h4>Project One</h4>
-                            <span>SEO &amp; Marketing</span>
-                          </div>
+                        <div class="skill mb-4">
+                            <div class="d-flex justify-content-between">
+                                <p class="mb-2">Mobile App Development</p>
+                                <p class="mb-2">95%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
-                      </div>
-                      <div>
-                        <div class="thumb">
-                          <img src="assets/images/video-thumb-02.png" alt="" />
-                          <div class="inner-content">
-                            <h4>Second Project</h4>
-                            <span>Advertising &amp; Marketing</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div>
-                        <div class="thumb">
-                          <img
-                            src="assets/images/video-thumb-03.png"
-                            alt="Marketing"
-                          />
-                          <div class="inner-content">
-                            <h4>Project Three</h4>
-                            <span>Digital &amp; Marketing</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div>
-                        <div class="thumb">
-                          <img
-                            src="assets/images/video-thumb-04.png"
-                            alt="SEO Work"
-                          />
-                          <div class="inner-content">
-                            <h4>Fourth Project</h4>
-                            <span>SEO &amp; Advertising</span>
-                          </div>
-                        </div>
-                      </div>
+                        <a href="" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">Read More</a>
                     </div>
-                  </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about.png">
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+        <!-- About End -->
+        
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center"><span></span>Our Services<span></span></p>
+                    <h1 class="text-center mb-5">What Solutions We Provide</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-search fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Mobile App Development</h5>
+                            <p class="m-0">Our specialized team of mobile app developers deliver high
+                  quality code for customized apps and softwares.</p>
+                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-laptop-code fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Web Design</h5>
+                            <p class="m-0">We are a team of expert in website development. We design,
+                  build, and maintain websites for our clients from all over the
+                  world.</p>
+                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fab fa-facebook-f fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Business Intelligence</h5>
+                            <p class="m-0">SpazeTech Solutions, with its extensive experience across the data and analytics lifecycles, drives businesses to address transformation challenges.</p>
+                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-mail-bulk fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Email Marketing</h5>
+                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa fa-thumbs-up fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">PPC Advertising</h5>
+                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item d-flex flex-column text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fab fa-android fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">App Development</h5>
+                            <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <a class="btn btn-square" href=""><i class="fa fa-arrow-right"></i></a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- Newsletter Start -->
+        <div class="container-xxl bg-primary newsletter py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 text-center">
+                        <p class="section-title text-white justify-content-center"><span></span>Newsletter<span></span></p>
+                        <h1 class="text-center text-white mb-4">Stay Always In Touch</h1>
+                        <p class="text-white mb-4"> Feel free to <em>Contact</em> us via the <span>HTML form</span></p>
+                        <div class="position-relative w-100 mt-3">
+                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Enter Your Email" style="height: 48px;">
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter End -->
+
+
+        <!-- Projects Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center"><span></span>Our Projects<span></span></p>
+                    <h1 class="text-center mb-5">Recently Completed Projects</h1>
+                </div>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="mx-2 active" data-filter="*">All</li>
+                            <li class="mx-2" data-filter=".first">Web Design</li>
+                            <!-- <li class="mx-2" data-filter=".second">Mobile Apps</li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/gym.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/gym.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="websites/add-life-health-fitness-free-bootstrap-html5-template/index.html" target="_blank"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">Complete Web Development</p>
+                                <h5 class="lh-base mb-0">Complete website for gym done by our team of experts.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/restaurant.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/restaurant.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="websites/restoran-1.0.0/index.html" target="_blank"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">UX Design</p>
+                                <h5 class="lh-base mb-0">Design of UX for the restaurant website by us.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/school.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/school.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="websites/school-educational-html5-template/index.html" target="_blank"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">UI / UX Design</p>
+                                <h5 class="lh-base mb-0">User Interactive Web pages added by our experts.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/FinanceBusiness.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/FinanceBusiness.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="websites/finance-business-1.0.0/index.html" target="_blank"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">Dynamic User Interface</p>
+                                <h5 class="lh-base mb-0">Transformed static website into dynamic using React JS.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/Coffe.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/Coffe.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="websites/coffee-shop-free-html5-template/index.html" target="_blank"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">Complete Website Development</p>
+                                <h5 class="lh-base mb-0">The complete website development of coffee shop done by our team.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/RealEstate.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/RealEstate.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="websites/icon-real-estate-developers-free-responsive-html-template/index.html" target="_blank"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light p-4">
+                                <p class="text-primary fw-medium mb-2">UI Improve</p>
+                                <h5 class="lh-base mb-0">Improvement in UI of the website.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <p class="section-title text-secondary justify-content-center"><span></span>Testimonial<span></span></p>
+                <h1 class="text-center mb-5">What Say Our Clients!</h1>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>"Website development was the best investment I ever made. It's really wonderful. Website development is the most valuable business resource we have EVER purchased."</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Rick E.</h5>
+                                <span>Profession</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>"Really good. I use website development often. Website development was the best investment I ever made."</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Jack F.</h5>
+                                <span>Profession</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded my-4">
+                        <p class="fs-5"><i class="fa fa-quote-left fa-4x text-primary mt-n4 me-3"></i>"I love your system. Thanks for the great service. Website development has completely surpassed our expectations. Buy this now. "</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 65px; height: 65px;">
+                            <div class="ps-4">
+                                <h5 class="mb-1">Curtis U</h5>
+                                <span>Profession</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Address<span></span></p>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Office No - 73, 1st Floor, Omaxe Gallaria, Sector 14, Bahadurgarh, Haryana 124507</p>
+                        <!-- <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p> -->
+                            <a href="mailto:contact@spaze.tech" subject="contact" style="text-decoration: none ; color: white "><i class="fa fa-envelope me-3"></i>contact@spaze.tech</a>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <br>
+                        <br>
+                        <br>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html">Contact Us</a>
+                        <!-- <a class="btn btn-link" href="">Privacy Policy</a> -->
+                        <!-- <a class="btn btn-link" href="">Terms & Condition</a> -->
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <p class="section-title text-white h5 mb-4">Gallery<span></span></p>
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/gym.png" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/school.png" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/restaurant.png" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/RealEstate.png" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/FinanceBusiness.png" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="img/school.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy;2021 <a class="border-bottom" href="#">Spazetech Solutions</a>, All Right Reserved. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
-    <div id="contact" class="contact-us section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="section-heading">
-              <h2>
-                Feel free to <em>Contact</em> us via the <span>HTML form</span>
-              </h2>
-              <div id="map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d520.3377031940129!2d76.898962543002!3d28.677652684823983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0df8d95a4c49%3A0x50ddaf3a54a26399!2sSpazetech%20Solutions!5e0!3m2!1sen!2sin!4v1639739275432!5m2!1sen!2sin"
-                  width="100%"
-                  height="360px"
-                  frameborder="0"
-                  style="border: 0"
-                  allowfullscreen=""
-                ></iframe>
-              </div>
-              <div class="info">
-                <!-- <span
-                  ><i class="fa fa-phone"></i>
-                  <a href="#">1234567890<br />090-080-0760</a></span
-                > -->
-                <span
-                  ><i class="fa fa-envelope"></i>
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <a href="#">contact@spaze.tech</a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-5 align-self-center">
-            <form id="contact" action="mailto:contact@spaze.tech" method="post">
-              <div class="row">
-                <div class="col-lg-12">
-                  <fieldset>
-                    <input
-                      type="name"
-                      name="name"
-                      id="name"
-                      placeholder="Name"
-                      autocomplete="on"
-                      required
-                    />
-                  </fieldset>
-                </div>
-                <div class="col-lg-12">
-                  <fieldset>
-                    <input
-                      type="surname"
-                      name="surname"
-                      id="surname"
-                      placeholder="Surname"
-                      autocomplete="on"
-                      required
-                    />
-                  </fieldset>
-                </div>
-                <div class="col-lg-12">
-                  <fieldset>
-                    <input
-                      type="text"
-                      name="email"
-                      id="email"
-                      pattern="[^ @]*@[^ @]*"
-                      placeholder="Your Email"
-                      required=""
-                    />
-                  </fieldset>
-                </div>
-                <div class="col-lg-12">
-                  <fieldset>
-                    <input
-                      type="text"
-                      name="website"
-                      id="website"
-                      placeholder="Your Website URL"
-                      required=""
-                    />
-                  </fieldset>
-                </div>
-                <div class="col-lg-12">
-                  <fieldset>
-                    <button type="submit" id="form-submit" class="main-button">
-                      Submit Request
-                    </button>
-                  </fieldset>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="contact-dec">
-        <img src="assets/images/contact-dec.png" alt="" />
-      </div>
-      <div class="contact-left-dec">
-        <img src="assets/images/contact-left-dec.png" alt="" />
-      </div>
-    </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-    <div class="footer-dec">
-      <img src="assets/images/footer-dec.png" alt="" />
-    </div>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="about footer-item">
-              <div class="logo">
-                <a href="#"
-                  ><img
-                    src="assets/images/Logo1.png"
-                    alt="Onix Digital TemplateMo"
-                /></a>
-              </div>
-              <a href="#">contact@spaze.tech</a>
-              <ul>
-                <li>
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-behance"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="services footer-item">
-              <h4>Services</h4>
-              <ul>
-                <li><a href="#">SEO Development</a></li>
-                <li><a href="#">Business Growth</a></li>
-                <li><a href="#">Social Media Managment</a></li>
-                <li><a href="#">Website Optimization</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="community footer-item">
-              <h4>Community</h4>
-              <ul>
-                <li><a href="#">Digital Marketing</a></li>
-                <li><a href="#">Business Ideas</a></li>
-                <li><a href="#">Website Checkup</a></li>
-                <li><a href="#">Page Speed Test</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="subscribe-newsletters footer-item">
-              <h4>Subscribe Newsletters</h4>
-              <p>Get our latest news and ideas to your inbox</p>
-              <form action="#" method="get">
-                <input
-                  type="text"
-                  name="email"
-                  id="email"
-                  pattern="[^ @]*@[^ @]*"
-                  placeholder="Your Email"
-                  required=""
-                />
-                <button type="submit" id="form-submit" class="main-button">
-                  <i class="fa fa-paper-plane-o"></i>
-                </button>
-              </form>
-            </div>
-          </div>
-          <div class="col-lg-12">
-            <div class="copyright">
-              <p>
-                Copyright © 2021 Spazetech Solutions. All Rights Reserved.
-                <br />
-                Designed by
-                <a
-                  rel="nofollow"
-                  href="https://spaze.tech"
-                  title="free CSS templates"
-                  >Spazetech Solutions</a
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/animation.js"></script>
-    <script src="assets/js/imagesloaded.js"></script>
-    <script src="assets/js/custom.js"></script>
-
-    <script>
-      // Acc
-      $(document).on('click', '.naccs .menu div', function () {
-        var numberIndex = $(this).index()
-
-        if (!$(this).is('active')) {
-          $('.naccs .menu div').removeClass('active')
-          $('.naccs ul li').removeClass('active')
-
-          $(this).addClass('active')
-          $('.naccs ul')
-            .find('li:eq(' + numberIndex + ')')
-            .addClass('active')
-
-          var listItemHeight = $('.naccs ul')
-            .find('li:eq(' + numberIndex + ')')
-            .innerHeight()
-          $('.naccs ul').height(listItemHeight + 'px')
-        }
-      })
-    </script>
-  </body>
 </html>
