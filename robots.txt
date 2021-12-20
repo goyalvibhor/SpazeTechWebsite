@@ -1,0 +1,3 @@
+Sitemap:https://spaze.tech/sitemap.xml
+User-agent: *
+Disallow:
