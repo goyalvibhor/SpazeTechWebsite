@@ -5,9 +5,9 @@
 	$message = $_POST['Message'];
 
 	// Database connection
-	$servername = "loaclhost";
+	$servername = "127.0.0.1:3306";
     $database = "u392818579_Spazetech";
-    $username = "admin";
+    $username = "u392818579_admin";
     $password = "X61QHGrXjNFYMaPKAvdE";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
@@ -15,8 +15,8 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
 	} else {
-		$stmt = $conn->prepare("insert into contact(Name, Email, Subject, Message) values(?, ?, ?, ?)");
-		$stmt->bind_param("sssssi", $name, $email, $subject, $message);
+		$stmt = $conn->prepare("Insert into Contact(Name, Email, Subject, Message) values(?, ?, ?, ?)");
+		$stmt->bind_param("sssssis", $name, $email, $subject, $message);
 		$execval = $stmt->execute();
 		echo $execval;
 		echo "Thank You...";
