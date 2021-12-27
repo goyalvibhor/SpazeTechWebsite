@@ -5,7 +5,7 @@
 	$message = $_POST['Message'];
 
 	// Database connection
-	$servername = "127.0.0.1:3306";
+	$servername = "localhost";
     $database = "u392818579_Spazetech";
     $username = "u392818579_admin";
     $password = "X61QHGrXjNFYMaPKAvdE";
