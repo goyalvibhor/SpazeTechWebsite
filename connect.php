@@ -7,7 +7,7 @@
 	// Database connection
 	$servername = "localhost";
     $database = "u392818579_Spazetech";
-    $username = "u392818579_admin";
+    $username = "u392818579_admin1";
     $password = "X61QHGrXjNFYMaPKAvdE";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
