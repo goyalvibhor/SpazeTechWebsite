@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://spazeanalytics.com/index.html</loc>
+  <lastmod>2022-04-07T12:18:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/about.html</loc>
+  <lastmod>2022-04-07T12:18:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/blog.html</loc>
+  <lastmod>2022-04-07T12:18:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/contact.html</loc>
+  <lastmod>2022-04-07T12:18:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/login-signup/register/index.php</loc>
+  <lastmod>2022-04-07T08:25:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/blogs/conditional.html</loc>
+  <lastmod>2022-04-07T12:18:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/blogs/pivotcharts.html</loc>
+  <lastmod>2022-04-07T12:18:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/blogs/chartanimation.html</loc>
+  <lastmod>2022-04-07T12:18:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/blogs/msoffice.html</loc>
+  <lastmod>2022-04-07T12:18:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/blogs/msaccess.html</loc>
+  <lastmod>2022-04-07T12:18:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/blogs/xml.html</loc>
+  <lastmod>2022-04-07T12:18:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/login-signup/login/</loc>
+  <lastmod>2022-04-07T08:25:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/login-signup/reset-password/</loc>
+  <lastmod>2022-04-07T08:25:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/login-signup/register/</loc>
+  <lastmod>2022-04-07T08:25:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/blogs/power-bi-rally-connection.html</loc>
+  <lastmod>2022-04-07T08:25:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://spazeanalytics.com/blogs/power-bi-direct-query.html</loc>
+  <lastmod>2022-04-07T08:25:21+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

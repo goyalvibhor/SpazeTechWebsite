@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WSJT49K');</script>
+  <!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>How to connect Power BI using Direct Query – A Complete Guide</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.default.css">
+    <meta name="description" content="Learn how to connect various data sources in Power BI with the help of Direct Query option. Here you will find the step-by-step procedure to connect power bi with direct-query data sources.">
+    <meta name="keywords" content="How to connect power bi using direct query, how to connect power bi using direct query to import,how to connect power bi using direct query to import data, how to connect power bi using direct query to import data from excel, how to connect power bi using direct query to import data from power bi,power bi direct query, power bi direct query sources, power bi live connection,direct query limitations, power bi live connection using direct query,calculate columns in power bi using direct query,direct query power bi refresh, power bi direct query calculatec columns,power bi live connection limitations,power bi direct query parameters,power bi direct query to import data ,power bi direct query data sources,power bi live connect direct query,connect live vs direct query in power bi,how to connect directquery in power bi">
+
+    <meta name="image" content="https://www.spazeanalytics.com/img/icon.png">
+<!-- Schema.org for Google -->
+<meta itemprop="name" content="Spaze Analytics">
+<meta itemprop="description" content="Learn how to connect various data sources in Power BI with the help of Direct Query option. Here you will find the step-by-step procedure to connect power bi with direct-query data sources.">
+<meta itemprop="image" content="https://www.spazeanalytics.com/img/icon.png">
+<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+<meta property="og:title" content="How to connect Power BI using Direct Query – A Complete Guide">
+<meta property="og:description" content="Learn how to connect various data sources in Power BI with the help of Direct Query option. Here you will find the step-by-step procedure to connect power bi with direct-query data sources.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.spazeanalytics.com/img/icon.png">
+<meta property="og:url" content="https://www.spazeanalytics.com/blogs/power-bi-direct-query.html">
+<meta property="og:site_name" content="Spaze Analytics">
+<meta property="og:locale" content="en_US">
+<meta property="og:video" content="https://youtu.be/Z1R5nSHcOKQ">
+<link rel="canonical" href="https://www.spazeanalytics.com/blogs/power-bi-direct-query.html" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/img/favicon_spazeanalytics.png"
+    />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudfare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/slick-theme.css" />
+    <link rel="stylesheet" href="/css/slick.css" />
+    <meta name="twitter:card" content="app" />
+    <meta name="twitter:site" content="@spazeanalytics" />
+    <meta
+      name="twitter:description"
+      content="Learn how to connect various data sources in Power BI with the help of Direct Query option. Here you will find the step-by-step procedure to connect power bi with direct-query data sources."
+    />
+    <meta name="twitter:app:name:iphone" content="Spazeanalytics" />
+    <meta name="twitter:app:name:ipad" content="Spazeanalytics" />
+    <meta name="twitter:app:name:googleplay" content="Spazeanalytics" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C5JQX06RLM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C5JQX06RLM');
+</script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSJT49K"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="/index.html" class="navbar-brand">
+        <img src="/img/icon.png" alt="" style="width: 20%" />Spaze Analytics</a
+      >
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/about.html" class="nav-link">About Us</a>
+          </li>
+       <li class="nav-item">
+            <a href="/team.html" class="nav-link">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="/blog.html" class="nav-link active">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link">Contact</a>
+          </li>
+           <li>
+            <a href="../login-signup/register/index.php" class="btn btn-light btn-md">LOGIN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!--HEADER-->
+    <header id="page-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 m-auto text-center">
+            <h1>How to connect Power BI using Direct Query</h1>
+            <p>
+              Learn How you can connect Power BI using Direct Query for creating visuals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--BLOG SECTION-->
+    <main class="post blog-post col-lg-8" style="padding-top: 10px; margin-bottom: 30px;">
+      <div class="container">
+        <div class="post-single">
+
+          <div class="post-details">
+            <div class="post-meta d-flex justify-content-between">
+  
+            </div>
+            <h1>
+             A Complete Guide to Connect Power BI using Direct Query<a href="#"
+                ></a>
+            </h1>
+            <div
+              class="post-footer d-flex align-items-center flex-column flex-sm-row"
+            >
+              <a href="#" class="author d-flex align-items-center flex-wrap">
+    
+                <div class="title"><span>Vibhor Goyal</span></div></a
+              >
+              <div class="d-flex align-items-center flex-wrap">
+                <div class="date"><i class="icon-clock"></i> 2 months ago</div>
+                <div class="views"><i class="fa fa-eye" aria-hidden="true"></i> 500</div>
+            
+              </div>
+            </div>
+            <div class="post-body">
+             <p class="card-text">Hi All,</p>
+          
+               <p class="card-text">
+                <strong>What is Power BI?</strong>
+               </p>
+             <p class="card-text">Microsoft Power BI is a collection of software apps that helps to turn our data into useful, coherent, and interactive insights. The data can be in any form such as excel spread sheets or cloud based data warehouses. Power BI is very useful for connecting to your data sources and to visualize which data is important to us and it also lets us to share the visuals or insights with anyone or everyone we want to. </p>
+          
+           
+                 <p class="card-text"><strong>What is Direct Query?</strong></p>
+             
+                 <p class="card-text">As we can see its name, Direct Query which means a method that lets us to retrieve data directly from data sources, at the query time. The final part of the query imports the snapshots of data in the memory but DirectQuery (DQ) doesn’t store any data. </p>
+                
+            
+               <p class="card-text">As we write multiple queries in DirectQuery, it just goes to the data source for every single query and pulls the data from there to anywhere we want (In this case, Power BI).</p>
+               <p class="card-text">In all this process, the data that is fetched from the data sources remains in the data sources before, during, and after the execution of query.</p>
+             
+            
+               <p class="card-text">The connection of DirectQuery in Power BI doesn’t load the data model in Power BI. DirectyQuery doesn’t store second copy of the data, so there will be no excess consumption of the memory. The simple meaning of DirectQuery can be defined as the direct connection of Power BI to the data source. Whenever we see any visualization in the report, the data that we see comes directly from the data source.</p>
+               
+               <p class="card-text"><strong>Data Sources supported by DirectQuery:-</strong></p>
+               <p class="card-text">When we use the Import Data functionality, it supports all types of data sources. But DirectQuery supports only limited number of data sources. For example, the connection to excel file through DirectQuery is not possible as it doesn’t support this connection. Usually the data sources that are relational database models, or the data source of modelling engine, are supported by DirectQuery mode. </p>
+               <p class="card-text">The below list shows some of the data sources that are supported by DirectQuery:</p>
+               <p class="card-text">
+                <ul>
+                 <li>Oracle Database</li>
+                 <li>SQL Server</li>
+                 <li>Vertica</li>
+                 <li>Amazon Redshift</li>
+                 <li>Azure SQL Database</li>
+                 <li>IBM Netezza</li>
+                 <li>Impala</li>
+                 <li>Google BigQuery</li>
+                 <li>Teradata Database</li>
+                 <li>SAP HANA</li>
+
+                </ul>
+               </p>
+             
+               <p class="card-text">The above list is not fixed to only these data sources as new updates of Power BI Connectors may support more data sources.</p>
+               <p class="card-text"><strong>How to connect Power BI using DirectQuery?</strong></p>
+              
+               <p class="card-text">When we use Get Data option under Home ribbon of Power BI Desktop, it shows us two options such as Import and DirectQuery which means we can directly import the data or we can use DirectQuery to get the data.</p>
+               <p class="card-text">The difference between these two options is as follows:</p>
+           
+               <p class="card-text"><strong>•	Import:</strong></p>
+               <p class="card-text">With this option, we can import only selected tables and columns into Power BI Desktop. When we interact with any visualization in Power BI, it uses the imported data to shows us the created visualizations. When we want to see the data changes, we need to refresh the data that imports the dataset again from the data source.</p>
+               <p class="card-text"><strong>•	DirectQuery:</strong></p>
+               <p class="card-text">With the option of DirectQuery, the data is not imported or copied into Power BI Desktop. The data appear in fields for relational sources of data such that selected tables and columns appear in Fields list. In case of multi-dimensional sources such as SAP Business Warehouse, the dimensions and measures of selected table appear in the Field list. 
+                When we create visualizations in Power BI Desktop, the queries are run each time we see any visualization. Therefore, we always view the current data in the visualizations. 
+                </p>
+               <p class="card-text">There are various data modelling and transformations available in Power BI when we use DirectQuery. Some useful benefits of DirectQuery are as following:</p>
+               <ul>
+                <li>DirectQuery helps us to build visualizations with large datasets.</li>
+                <li>The data in the reports in always refreshed by DirectQuery.</li>
+                <li>There is no limitation of 1-GB dataset in DirectQuery.</li>
+               </ul>
+               <p class="card-text">Let us see how we can connect SQL Server using DirectQuery in Power BI:</p>
+               
+               <p class="card-text">The SQL Server will require data source that enables data connection from Power BI. The steps that we need to follow are as:</p>
+              <ol>
+               <li>Open Power BI Desktop. </li>
+               <li>Under the Home ribbon, click Get Data button.</li>
+               <li>The dialog box shows various options to choose as data sources.</li>
+               <li>Click database option that will show a dialog box.</li>
+               <br>
+               <img src="../img/step4.png" style="width:100%" alt="">
+               <br><br>
+               <li>Click the ‘Connect’ button and it will open another dialog box.</li>
+               <li>Then we need to enter the server name in text box and we also need to give a database name.</li>
+               <li>Now we need to click on ‘DirectQuery’ to connect live SQL Server Database</li><br>
+               <img src="../img/step7.png" style="width:100%" alt=""><br><br>
+               <li>After that click ‘OK’. Now the ‘Access a SQL server database’ dialog will appear. You need to select Use my current credentials option in order to access the database.</li><br>
+               <img src="../img/step8.png" style="width:100%" alt=""><br><br>
+               <li>After clicking ‘Connect’, the Power BI Desktop will start connecting to the server that will display navigator dialog containing all the tables and views in the database that are authorized to view on the server. </li>
+               <li>Now, click on the checkboxes for the tables, columns that we need in our visualizations.</li><br>
+               <img src="../img/step10.png" style="width:100%" alt=""><br><br>
+               <li>Finally click ‘Load’ and it will open a window displaying the tables that we selected in the field list.</li><br>
+               <img src="../img/step final.png" style="width:100%" alt=""><br><br>
+              </ol>
+               
+               <!-- <p class="card-text">Vibhor</p> -->
+               </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Copyright Spaze Analytics&copy; 2022</p>
+          </div>
+        </div>
+      </div>
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "Spazeanalytics",
+          "url": "https://spazeanalytics.com/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://spazeanalytics.com/index.html{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      </script>
+    </footer>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudfare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/slick.js"></script>
+  </body>
+</html>

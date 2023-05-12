@@ -1,0 +1,3 @@
+Sitemap:https://spazeanalytics.com/sitemap.xml
+User-agent: *
+Disallow:

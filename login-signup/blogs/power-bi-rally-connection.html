@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WSJT49K');</script>
+  <!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>How to connect Rally API to Power BI – A Complete Guide</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.default.css">
+    <meta name="description" content="Connecting Rally API with Power BI Desktop is very useful and enhances productivity of the workflow and Visualizaitons in Power BI. Learn to connect Power BI with Rally APi.">
+    <meta name="keywords" content="rally api, power bi rally api connect, how to connect rally api in power bi,connect rally api using power bi,rally api in power bi desktop download,rally api in power bi desktop example,rally api in power bi desktop,rally api in power bi desktop,power automate rally,power bi tutorial,powerbi,ca rally api,rally software api,rally api examples,rally web services api,rally lookback api,rallydev api,rally api get user stories,rally rest api examples,rally rest api,How to connect Rally API to Power BI">
+
+    <meta name="image" content="https://www.spazeanalytics.com/img/icon.png">
+<!-- Schema.org for Google -->
+<meta itemprop="name" content="Spaze Analytics">
+<meta itemprop="description" content="Connecting Rally API with Power BI Desktop is very useful and enhances productivity of the workflow and Visualizaitons in Power BI.Learn to connect Power BI with Rally APi.">
+<meta itemprop="image" content="https://www.spazeanalytics.com/img/icon.png">
+<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+<meta property="og:title" content="How to connect Rally API to Power BI – A Complete Guide">
+<meta property="og:description" content="Connecting Rally API with Power BI Desktop is very useful and enhances productivity of the workflow and Visualizaitons in Power BI.Learn to connect Power BI with Rally APi.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.spazeanalytics.com/img/icon.png">
+<meta property="og:url" content="https://www.spazeanalytics.com/blogs/power-bi-connection.html">
+<meta property="og:site_name" content="Spaze Analytics">
+<meta property="og:locale" content="en_US">
+<meta property="og:video" content="https://youtu.be/Z1R5nSHcOKQ">
+<link rel="canonical" href="https://www.spazeanalytics.com/blogs/power-bi-connection.html" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/img/favicon_spazeanalytics.png"
+    />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudfare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/slick-theme.css" />
+    <link rel="stylesheet" href="/css/slick.css" />
+    <meta name="twitter:card" content="app" />
+    <meta name="twitter:site" content="@spazeanalytics" />
+    <meta
+      name="twitter:description"
+      content="How to connect Rally API to Power BI – A Complete Guide">
+      <meta property="og:description" content="Connecting Rally API with Power BI Desktop is very useful and enhances productivity of the workflow and Visualizaitons in Power BI.Learn to connect Power BI with Rally APi."
+    />
+    <meta name="twitter:app:name:iphone" content="Spazeanalytics" />
+    <meta name="twitter:app:name:ipad" content="Spazeanalytics" />
+    <meta name="twitter:app:name:googleplay" content="Spazeanalytics" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C5JQX06RLM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C5JQX06RLM');
+</script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSJT49K"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="/index.html" class="navbar-brand">
+        <img src="/img/icon.png" alt="" style="width: 20%" />Spaze Analytics</a
+      >
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/about.html" class="nav-link">About Us</a>
+          </li>
+       <li class="nav-item">
+            <a href="/team.html" class="nav-link">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="/blog.html" class="nav-link active">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="nav-link">Contact</a>
+          </li>
+           <li>
+            <a href="../login-signup/register/index.php" class="btn btn-light btn-md">LOGIN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!--HEADER-->
+    <header id="page-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 m-auto text-center">
+            <h1>How to connect Rally API to Power BI </h1>
+            <p>
+              Learn How you can connect Rally API to Microsoft Power BI for creating visuals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--BLOG SECTION-->
+    <main class="post blog-post col-lg-8" style="padding-top: 10px; margin-bottom: 30px;">
+      <div class="container">
+        <div class="post-single">
+
+          <div class="post-details">
+            <div class="post-meta d-flex justify-content-between">
+  
+            </div>
+            <h1>
+             A Complete Guide to Connect Rally API in Microsoft Power BI Desktop<a href="#"
+                ></a>
+            </h1>
+            <div
+              class="post-footer d-flex align-items-center flex-column flex-sm-row"
+            >
+              <a href="#" class="author d-flex align-items-center flex-wrap">
+    
+                <div class="title"><span>Vibhor Goyal</span></div></a
+              >
+              <div class="d-flex align-items-center flex-wrap">
+                <div class="date"><i class="icon-clock"></i> 2 months ago</div>
+                <div class="views"><i class="fa fa-eye" aria-hidden="true"></i> 500</div>
+            
+              </div>
+            </div>
+            <div class="post-body">
+             <p class="card-text">Hi All,</p>
+             <p class="card-text"><strong>Introduction: </strong></p>
+               <p class="card-text">
+                Power BI is a very useful software and app that provides various services to turn unrelated data sources into reasonable, visually fascinating, and interactive insights. Power BI connects with several data sources and provides visually immersive data visualizations. The Rally API can also be used as a data source that helps to automatically fetch the data from Rally and automates the refreshing of data into the visualisations without any manual interactions. Rally is a CA Agile Central software that aids in project management through the use of cloud-based technology. Most of the computer software industries use Rally Software to enhance their productivity over multiple projects running at the same time. 
+               </p>
+             <p class="card-text">Rally is efficient software to increase the productivity of any kind of project, for instance, software development projects. The industries using Rally Software include IT and services, computer software, financial services, hospitals and healthcare, banking, telecommunication, higher education, computer hardware, and insurance. The tool or software is used to track each phase of the development process. </p>
+             <p class="card-text">With the help of Rally Software, we are going to learn how we can enhance the productivity of reports and dashboards in Microsoft Power BI. You will know each step of connecting Microsoft Power BI Desktop with the API of Rally software.</p>
+           
+                 <p class="card-text"><strong>What is Microsoft Power BI?</strong></p>
+             
+                 <p class="card-text">Power BI is a software that helps create visualisations of the available data. It becomes tedious to manipulate the data available in CSV or XLSX formats to find useful insights. But Power BI increases productivity with its features that help define several visualisations of the data without any manual intervention. It becomes easy to connect data sources in Power BI to visualise and discover important data. We can add the source of data from a number of options available in Microsoft Power BI Desktop to fetch our data. The visualisations that we create are shareable and can be shared with anyone or everyone we want. The Power BI software can be accessed through the use of Power BI Desktop software or its online Power BI service. Microsoft provides Power BI for Windows as Power BI Desktop, an online SaaS (Software as a Service) called Power BI Service, and its mobile apps for Windows, iOS, and Android devices. As it is available to be used on multiple platforms, it enhances the flow of work in the workplace.</p>
+                
+               <p class="card-text"><strong>What is Rally?</strong></p>
+               <p class="card-text">Rally is software formerly called CA Agile Central and is an enterprise-class platform that is used for scaling agile development practices. Rally helps organisations and teams plan, manage, and track the continuous improvements in projects. It helps to take useful steps for better output from the work.</p>
+               <p class="card-text">Various organisations use Rally software worldwide to find useful insights, improve performance, and track the progress of on-going or completed projects. It accelerates the performance and pace of innovations to deliver value faster to projects and enterprises. Rally software provides visibility for tracking progress, dependencies, and roadblocks across several teams, programs, and projects.</p>
+             
+               <p class="card-text"><strong>What is Rally API?</strong></p>
+               <p class="card-text">Rally API stands for Rally Application Programming Interface, which means that Rally can be integrated with an application through the use of this API. The Rally API is an advanced tool that helps integrate the CA Agile Central subscription with other external applications and services.</p>
+               <p class="card-text">What the Rally API does is make HTTP POST requests to the URL, which includes accessing the rally dashboard and fetching data to the application software.</p>
+               <p class="card-text">The Rally API helps to forecast and track progress, manage scope, and identify bottlenecks in other external applications and services. To use Rally APIs, it is required to create API keys from the CA Agile central application manager for app developers and users. While creating the API key, you will be asked for your Rally CA Agile Central Login Username and Password.</p>
+               <p class="card-text">The Rally API also requires a query in the API key to fetch the data such as pagesize, order, and more.</p>
+               <p class="card-text"><strong>The following are the benefits of using the Rally API to automate data fetch and update:</strong></p>
+               <p class="card-text">The Rally API is very useful when we need to get the data into some external applications and services. Here are some benefits of using the Rally API:</p>
+               <p class="card-text">
+                <ul>
+                 <li>It helps to fetch the data from rally user stories and dashboards to other external applications that support fetching data from web sources.</li>
+                 <li>Extends apps' usefulness and customization for the views and dashboards.</li>
+                 <li>Building your own integration with the Web Services API can also be done using the Rally API.</li>
+                 <li>It can be integrated with any software application that supports data sources from the web.</li>
+
+                </ul>
+               </p>
+             
+               <p class="card-text"><strong>Steps to connect Rally API with Power BI:</strong></p>
+               <p class="card-text">Here are some useful steps that will help you go through the process of connecting the Rally API with Microsoft Power BI.</p>
+               <ol>
+                <li>Launch the Microsoft Power BI Desktop Software.</li>
+                <li>Go to Get Data from the Home tab of the Power BI Desktop.</li>
+                <li>Select the Web as a data source.</li>
+                
+                <li>Paste the following link that works as a rally API:</li>
+                <a href="">https://rally1.rallydev.com/slm/webservice/v2.0/hierarchicalrequirement?workspace=https://rally1.rallydev.com/slm/webservice/v2.0/workspace/User_Story_ViewID&project=https://rally1.rallydev.com/slm/ <br> webservice/v2.0/project/User_Story_ID&fetch=true&start=1&pagesize=3000</a>
+                <li>In the above link, User_Story_ViewID should be replaced with the user storey id that you want to fetch from your Power BI Desktop.</li>
+                <li>You can get the user_story_viewid from the address bar. (See example below):</li> <br>
+                <img src="../img/rally-api-power-bi.png" alt=""><br><br>
+                <p class="card-text">In the above image, the address from the address bar is shown. When you open your rally dashboard and any user storey view, the address will be shown just like in the above image.</p>
+                <p class="card-text">You can find the User_Story_ViewID in the address bar located between # and users.</p>
+                <li>Copy that User Story View Id and paste it in the URL in step 4.</li>
+                <li>After that, give a pagesize to it, i.e., in place of 3000, any number of rows you want to fetch from that user story.</li>
+                <li>After entering this URL as a data source in Power BI Desktop, press ENTER and it will start fetching data from the user stories.</li>
+                <li>You will be prompted to enter your rally credentials in Power BI Desktop before it actually starts to fetch the data.</li>
+                <li>After entering username and password, it will start fetching data from user stories and you can clearly see the rows and columns in the Power Query Editor.</li>
+                <li>Now you have added this API to Microsoft Power BI and can perform multiple operations on that data, such as selecting columns, renaming, and applying them to take them to the Power BI Desktop to create visuals from that data.</li>
+              
+               </ol>
+               <p class="card-text"><strong>FAQs: </strong></p>
+               <p class="card-text"><strong>Q. Is it helpful to automate data refresh in Power BI dashboards?</strong></p>
+               <p class="card-text">A. Yes, it is very useful to automate the data refresh in Power BI dashboards when the data is continuously changing. When you create any dashboard, it should not be static or get data from any source from the system, as the data will be the same even if the updated data is available on the internet. You can set the data source to web and apply the auto refresh option so that the data in dashboards and visuals will be automatically updated when any new information is added on the web.</p>
+               <p class="card-text"><strong>Q. Can I connect Rally with only limited data in Power BI?</strong></p>
+               <p class="card-text">A. Yes, after connecting the rally API to the PowerBI Desktop. You can perform various operations on that data, such as selecting columns, rows, and other operations. By doing this, you can only fetch limited data in Power BI. It is considered best practise to choose only limited data to fetch from the web to save time and avoid fetching unusable data.</p>
+               <p class="card-text"><strong>Q. For what purpose Rally is used?</strong></p>
+               <p class="card-text">A. Rally is used by enterprises and business leaders to track, manage, and plan the progress of any project. The projects can be of any type, such as software development projects or other developmental activities in the organisation. It helps to effectively manage all the tasks in the project.</p>
+               <p class="card-text"><strong>Q. What are the benefits of Power BI?</strong></p>
+               
+               <p class="card-text">A. Power BI is very useful for creating visuals and interactive dashboards from data. There are some benefits to Power BI which include:</p>
+              <ul>
+               <li>It provides Business Intelligence to all. </li>
+               <li>Power BI helps to bring life to the data.</li>
+               <li>Power BI easily connects to data sources.</li>
+               <li>Power BI is also capable of Artificial Intelligence.</li>
+               <li>Automates the data updation in dashboards by the use of APIs.</li>
+               <li>It also provides custom visualizations.</li>
+              </ul>
+               
+               <!-- <p class="card-text">Vibhor</p> -->
+               </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Copyright Spaze Analytics&copy; 2022</p>
+          </div>
+        </div>
+      </div>
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "Spazeanalytics",
+          "url": "https://spazeanalytics.com/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://spazeanalytics.com/index.html{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      </script>
+    </footer>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudfare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/slick.js"></script>
+  </body>
+</html>
