@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TVZ838P');</script>
+<!-- End Google Tag Manager -->
+    <!-- Google Tag  -->
+   <!-- Google tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-03SFXB2DYP">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-03SFXB2DYP');
+</script>
+    <!-- End Google Tag Manager -->
+        
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>How to connect Rally API to Power BI | Spazeanalytics Blogs</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img/favicon_spazeanalytics.png"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta
+      name="description"
+      content="Spazeanalytics blogs are very helpful in learning data analytics with the help of some popular tools and useful techniques."
+    />
+    <meta
+      name="keywords"
+      content="data analytics blogs 2020,big data analytics blogs,data analytics and blog,data and analytics blogs,best data analytics blogs,data analytics for blog,data analytics blog,blogs on data analytics,data analytics blog post,data analytics blog topics,ecommerce data analysis,data analytics in e commerce,data analysis on e commerce,data analytics in e-commerce industry,analytics in ecommerce,e commerce analytics"
+    />
+    <meta name="image" content="https://www.spazeanalytics.com/img/icon.png" />
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Spaze Analytics" />
+    <meta
+      itemprop="image"
+      content="https://www.spazeanalytics.com/img/icon.png"
+    />
+    <meta
+      itemprop="description"
+      content="Spazeanalytics blogs are very helpful in learning data analytics with the help of some popular tools and useful techniques."
+    />
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta
+      property="og:title"
+      content="Spazeanalytics Blogs | Data Analytics and Spazetech Solutions"
+    />
+    <meta
+      property="og:description"
+      content="Spazeanalytics blogs are very helpful in learning data analytics with the help of some popular tools and useful techniques."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://www.spazeanalytics.com/img/icon.png"
+    />
+    <meta
+      property="og:url"
+      content="https://www.spazeanalytics.com/blog.html"
+    />
+    <meta property="og:site_name" content="Spaze Analytics" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:video" content="https://youtu.be/Z1R5nSHcOKQ" />
+    <link rel="canonical" href="https://www.spazeanalytics.com/blog.html" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudfare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <meta name="twitter:card" content="app" />
+    <meta name="twitter:site" content="@spazeanalytics" />
+    <meta
+      name="twitter:description"
+      content="Spazeanalytics blogs are very helpful in learning data analytics with the help of some popular tools and useful techniques."
+    />
+    <meta name="twitter:app:name:iphone" content="Spazeanalytics" />
+    <meta name="twitter:app:name:ipad" content="Spazeanalytics" />
+    <meta name="twitter:app:name:googleplay" content="Spazeanalytics" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-C5JQX06RLM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-C5JQX06RLM')
+    </script>
+  </head>
+  <body>
+  
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVZ838P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="navv">
+    <nav class="navbar navbar-expand-sm " >
+      <div class="container" >
+        <a href="index.html" class="navbar-brand">
+          <img src="img/spaze1.png" alt="" style="border-radius: 5px; width: 150px; position: absolute; top:5px; left: 35px; " /></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" style="color: black;" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" style="color: black; " class="nav-link">About Us</a>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="color: black; " role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Powerbi.html">Power BI</a>
+                <a class="dropdown-item" href="Excelvba.html">Excel VBA</a>
+                <a class="dropdown-item" href="Tableau.html">Tableau</a>
+                <a class="dropdown-item" href="googledatastudio.html">Google Data Studio</a>
+                <a class="dropdown-item" href="synapse.html">Azure Synapse Analytics</a>
+                <a class="dropdown-item" href="qlik.html">Qlik Sense </a>
+                                <a class="dropdown-item" href="SQL.html">SQL </a>
+
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="team.html" style="color: black; " class="nav-link">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" style="color: black; " class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" style="color: black; " class="nav-link">Contact</a>
+            </li>
+  
+            <li>
+              <a href="./login-signup/register/index.php" style="background-color: rgb(53, 47, 47); color: white; " class="btn  btn-light btn-md">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+    <!--HEADER-->
+    <header id="page-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 m-auto text-center">
+            <h1>Read Our Blog</h1>
+            <p>
+              Access our blogs to enhance the knowledge and spread the right
+              information on Excel Automation, Power BI, and other business
+              tools by sharing them.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <br /><br />
+
+    <section class="featured-posts no-padding-top">
+      <div class="container">
+        <!-- Post        -->
+        <div class="row d-flex align-items-stretch">
+          <div class="text col-lg-7">
+            <div class="text-inner d-flex align-items-center">
+              <div class="content">
+                <header class="post-header">
+                  <a href="blogs/power-bi-direct-query.html">
+                    <h2 class="h4">
+                      How to connect Power BI using Direct Query
+                    </h2></a
+                  >
+                </header>
+                <p class="card-text">Hi All,</p>
+                <p class="card-text">
+                  As we can see its name, Direct Query which means a method that
+                  lets us to retrieve data directly from data sources, at the
+                  query time. The final part of the query imports the snapshots
+                  of data in the memory but DirectQuery (DQ) doesn’t store any
+                  data. .....
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <!-- Post        -->
+        <div class="row d-flex align-items-stretch">
+          <div class="text col-lg-7">
+            <div class="text-inner d-flex align-items-center">
+              <div class="content">
+                <header class="post-header">
+                  <a href="blogs/power-bi-rally-connection.html">
+                    <h2 class="h4">How to connect Rally API to Power BI</h2></a
+                  >
+                </header>
+                <p class="card-text">Hi All,</p>
+                <p class="card-text">
+                  Power BI is a very useful software and app that provides
+                  various services to turn the unrelated data sources into
+                  reasonable, visually fascinating, and interactive insights.
+                  Power BI connects with several data sources and provides
+                  visually immersive data visualizations. And Rally API.....
+                </p>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <!-- Post-->
+        <div class="row d-flex align-items-stretch">
+          <div class="text col-lg-7">
+            <div class="text-inner d-flex align-items-center">
+              <div class="content">
+                <header class="post-header">
+                  <a href="blogs/conditional.html">
+                    <h2 class="h4">
+                      Alternative to Conditional Formatting in Excel
+                    </h2></a
+                  >
+                </header>
+                <p class="card-text">Hi All,</p>
+                <p class="card-text">
+                  Many people find conditional formatting a little complicated,
+                  specially when they have to do a little more then colouring
+                  cells or text/numbers in the cells. You can do much more than
+                  conditional formatting with a good understanding of Custom
+                  Formats in Excel. Excel see a cells format as having four
+                  Sections. These are, from left to right Positive numbers,
+                  Negative Numbers, Zero Values and Text values (“Positive
+                  Number “;” Negative Number “;” Zero “;” Text”).Each of these
+                  Sections are separated by a semi colon (;)...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <!-- one blog ends -->
+
+        <!-- Post        -->
+        <div class="row d-flex align-items-stretch">
+          <div class="text col-lg-7">
+            <div class="text-inner d-flex align-items-center">
+              <div class="content">
+                <header class="post-header">
+                  <a href="blogs/pivotcharts.html">
+                    <h2 class="h4">Pivot Charts</h2></a
+                  >
+                </header>
+                <p class="card-text">Hi All,</p>
+                <p class="card-text">
+                  Recently, I worked on a project which included creation and
+                  automation of Pivot charts.I have always been fascinated by
+                  them, and it is one of my favourite features in MS Excel. I am
+                  going to list down some of the major advatages of using a
+                  Pivot Chart over a Simple Chart...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <!-- Post                            -->
+        <div class="row d-flex align-items-stretch">
+          <div class="text col-lg-7">
+            <div class="text-inner d-flex align-items-center">
+              <div class="content">
+                <header class="post-header">
+                  <a href="blogs/chartanimation.html">
+                    <h2 class="h4">Amazing Chart Animation</h2></a
+                  >
+                </header>
+                <p class="card-text">Hi All,</p>
+                <p class="card-text">
+                  Found another amazing Chart animation workbook courtesy of
+                  excelhero.com. This one is by far the best i have seen that
+                  can be created in Excel without the need of tools like
+                  XCelcius or crystal reports etc. I can bet that if you present
+                  your data to your clients in this kind of chart, it will be a
+                  stand out instantly. But creating such an animation in a chart
+                  would require knowledge of VBA and excel objects such as named
+                  ranges etc. Let me explain how this animation works:...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <!-- Post                            -->
+        <div class="row d-flex align-items-stretch">
+          <div class="text col-lg-7">
+            <div class="text-inner d-flex align-items-center">
+              <div class="content">
+                <header class="post-header">
+                  <a href="blogs/msoffice.html">
+                    <h2 class="h4">MS Office 2013 & System Requirements</h2></a
+                  >
+                </header>
+                <p class="card-text">
+                  Microsoft has launched the latest version of MS Office 2013
+                  also known as MS Office 15 after a break of 3 years. An
+                  improvement to the previous version was badly required for
+                  Microsoft to consolidate its receding market share because of
+                  competition from Google Docs and Open Office platforms which
+                  also have an added advantage of being freeware software’s.
+                  Microsoft has launched a host of new features such as
+                  integration with Skydrive for Online Sharing and cloud
+                  computing platforms. This also requires better system
+                  requirements to install office 2013 such as Windows 7 or
+                  newer...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <!-- Post                            -->
+        <div class="row d-flex align-items-stretch">
+          <div class="text col-lg-7">
+            <div class="text-inner d-flex align-items-center">
+              <div class="content">
+                <header class="post-header">
+                  <a href="blogs/msaccess.html">
+                    <h2 class="h4">
+                      Creating an Application in Microsoft Access
+                    </h2></a
+                  >
+                </header>
+                <p class="card-text">Hi,</p>
+                <p class="card-text">
+                  I am often asked how I create an Access application. That’s a
+                  difficult question because each system has different business
+                  rules. However, there is a more or less standard process I go
+                  through when creating any database application. That’s what
+                  I’ll describe here...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <!-- Post                            -->
+        <div class="row d-flex align-items-stretch">
+          <div class="text col-lg-7">
+            <div class="text-inner d-flex align-items-center">
+              <div class="content">
+                <header class="post-header">
+                  <a href="blogs/xml.html">
+                    <h2 class="h4">
+                      Working with XML in MS Excel and MS Access
+                    </h2></a
+                  >
+                </header>
+                <p class="card-text">Hi Friends,</p>
+                <p class="card-text">
+                  Posting something after a long time. In the meantime i was
+                  trying to learn xml and its applications within VB and MS
+                  Excel. I also bought this book called ” XML programming with
+                  VB and ASP” by Mark and Tracey Wilson. This book proved to be
+                  very useful in clearing some of the basic concepts about XML
+                  and its application with VB. I would first like to clear some
+                  of the basic facts about XML:...
+                </p>
+
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+  window.chatbaseConfig = {
+    chatbotId: "HsdBPBfxw4X8GEj18pmBi",
+  }
+</script>
+<script
+  src="https://www.chatbase.co/embed.min.js"
+  id="HsdBPBfxw4X8GEj18pmBi"
+  defer>
+</script>
+
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+              <a href="privacy.html">Privacy Policy</a>
+            <p>Copyright Spaze Analytics&copy; 2022</p>
+          </div>
+        </div>
+      </div>
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "Spazeanalytics",
+          "url": "https://spazeanalytics.com/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://spazeanalytics.com/index.html{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      </script>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudfare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slick.js"></script>
+  </body>
+</html>
